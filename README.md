@@ -46,11 +46,6 @@ This project is deployed using Vercel: https://golden-retriever-website.vercel.a
 The website tracks the following custom events:
 - `gallery_image_click`: When a user clicks on a gallery image
 - `gallery_image_view`: When a gallery image comes into view
-- `navigation_click`: When a user clicks on a navigation link
-- `external_link_click`: When a user clicks on an external link
-- `scroll_depth`: When a user scrolls to certain depths of the page
-- `time_on_page`: Time spent on the page at various intervals
-- `page_exit`: When a user leaves the page
 
 ## Custom Dimensions
 The following custom dimensions are used in Google Analytics:
