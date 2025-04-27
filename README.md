@@ -55,11 +55,6 @@ The following custom dimensions are used in Google Analytics:
 - `image_index`: The position index of the clicked gallery image
 - `image_alt`: The alt text of the clicked gallery image
 
-## Custom Dimensions
-The following custom dimensions are used in Google Analytics:
-- `image_index`: The position index of the clicked gallery image
-- `image_alt`: The alt text of the clicked gallery image
-
 ## Project Structure
 - `index.html` - Home page
 - `contact.html` - Contact page
