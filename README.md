@@ -43,7 +43,11 @@ This project is deployed using Vercel: https://golden-retriever-website.vercel.a
 - Branch: staging
 
 ## Google Analytics Events
-The website tracks the following custom events:
+The website tracks the following events:
+- `gallery_image_click`: When a user clicks on a gallery image
+- `page_loaded`: Time a page is loaded
+
+## Custom Events
 - `gallery_image_click`: When a user clicks on a gallery image
 
 ## Custom Dimensions
