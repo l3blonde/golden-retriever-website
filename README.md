@@ -1,9 +1,7 @@
 # Golden Retriever Website
-
 Website about Golden Retrievers featuring a responsive design, image gallery, and GDPR-compliant cookie consent.
 
 ## Features
-
 - Responsive design that works on mobile, tablet, and desktop
 - Image gallery with hover effects
 - GDPR-compliant cookie consent banner
@@ -11,14 +9,12 @@ Website about Golden Retrievers featuring a responsive design, image gallery, an
 - Privacy policy page
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - Vanilla JavaScript
 - Google Analytics 4
 
 ## Setup
-
 1. Clone the repository:
    \`\`\`
    git clone https://github.com/l3blonde/golden-retriever-website.git
@@ -36,19 +32,17 @@ Website about Golden Retrievers featuring a responsive design, image gallery, an
 4. Test locally by opening `index.html` in your browser
 
 ## Deployment on Vercel
-
-This project is deployed using Vercel:
+This project is deployed using Vercel: https://golden-retriever-website.vercel.app
 
 ### Production Environment
 - Primary URL: https://golden-retriever-website.vercel.app
 - Branch: main
 
 ### Staging/Preview Environment
-- URL: https://golden-retriever-website-git-staging.vercel.app
+- URL: https://golden-retriever-website-git-c1051a-marianne-legrelles-projects.vercel.app
 - Branch: staging
 
 ## Google Analytics Events
-
 The website tracks the following custom events:
 - `gallery_image_click`: When a user clicks on a gallery image
 - `gallery_image_view`: When a gallery image comes into view
@@ -59,13 +53,11 @@ The website tracks the following custom events:
 - `page_exit`: When a user leaves the page
 
 ## Custom Dimensions
-
 The following custom dimensions are used in Google Analytics:
 - `image_index`: The position index of the clicked gallery image
 - `image_alt`: The alt text of the clicked gallery image
 
 ## Project Structure
-
 - `index.html` - Home page
 - `contact.html` - Contact page
 - `privacy-policy.html` - Privacy policy page
@@ -75,7 +67,6 @@ The following custom dimensions are used in Google Analytics:
 - `favicon.ico` - Website favicon
 
 ## Browser Compatibility
-
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
@@ -83,6 +74,5 @@ The following custom dimensions are used in Google Analytics:
 - Mobile browsers (iOS Safari, Android Chrome)
 
 ## Acknowledgments
-
 - Created as a student project at Thomas More University, Belgium
 - Student ID: r1004473 Marianne Poliakov 
