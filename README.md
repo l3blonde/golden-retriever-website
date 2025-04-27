@@ -35,12 +35,13 @@ Website about Golden Retrievers featuring a responsive design, image gallery, an
 
 4. Test locally by opening `index.html` in your browser
 
-## Deployment
+### Production (Main) Environment
 
-This project is deployed using Vercel:
-- Live site: https://school-retriever-project.vercel.app
-- Production:https://school-retriever-project.vercel.app
-- Preview (after creating staging branch):https://school-retriever-project-git-staging-marianne-legrelles-projects.vercel.app](https://school-retriever-project-git-staging-marianne-legrelles-projects.vercel.app
+- Primary URL: https://school-retriever-project.vercel.app
+
+### Staging (Preview) Environment
+
+- https://school-retriever-project-git-main-marianne-legrelles-projects.vercel.app
 
 
 ## Google Analytics Events
