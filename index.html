@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Retriever</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="analytics.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-line"></div>
+            <h1>Golden Retriever</h1>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-image">
+        <img src="images/golden-retriever-mono.jpg" alt="Golden Retriever">
+    </div>
+    <div class="hero-overlay">
+        <div class="container">
+            <h2><span class="accent">Loyal.</span> Friendly. Loving.</h2>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="text-container">
+            <p>Golden Retrievers are renowned for their friendly temperament, intelligence, and loyalty. They make excellent family pets and are amongst the most popular dog breeds worldwide.</p>
+            <p>Originally bred as hunting dogs in Scotland, Golden Retrievers excel at retrieving shot game undamaged due to their soft mouth. Today, they're beloved companions and often work as assistance dogs, therapy dogs, and in search and rescue operations.</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <h2><span class="section-line"></span>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/golden-playing.jpg" alt="Golden Retriever Playing">
+                <div class="gallery-line"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/golden-portrait.jpg" alt="Golden Retriever Portrait">
+                <div class="gallery-line"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/golden-puppy.jpg" alt="Golden Retriever Puppy">
+                <div class="gallery-line"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="copyright">
+                <div class="logo-line"></div>
+                <p>© 2024 Golden Retriever Webpage</p>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<div id="cookie-banner" class="cookie-banner">
+    <div class="container">
+        <div class="cookie-content">
+            <p>This website uses cookies to ensure you get the best experience. <a href="privacy-policy.html">Learn more</a></p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="btn-accept">Accept</button>
+                <button id="decline-cookies" class="btn-decline">Decline</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const cookieBanner = document.getElementById('cookie-banner');
+        const acceptButton = document.getElementById('accept-cookies');
+        const declineButton = document.getElementById('decline-cookies');
+
+        if (!localStorage.getItem('cookieConsent')) {
+            cookieBanner.style.display = 'block';
+        }
+
+        acceptButton.addEventListener('click', function() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            cookieBanner.style.display = 'none';
+        });
+
+        declineButton.addEventListener('click', function() {
+            localStorage.setItem('cookieConsent', 'declined');
+            cookieBanner.style.display = 'none';
+        });
+    });
+</script>
+</body>
+</html>
