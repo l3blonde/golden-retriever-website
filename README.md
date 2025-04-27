@@ -45,7 +45,6 @@ This project is deployed using Vercel: https://golden-retriever-website.vercel.a
 ## Google Analytics Events
 The website tracks the following custom events:
 - `gallery_image_click`: When a user clicks on a gallery image
-- `gallery_image_view`: When a gallery image comes into view
 
 ## Custom Dimensions
 The following custom dimensions are used in Google Analytics:
